@@ -1,4 +1,10 @@
-
+:root {
+    --dark-blue: #11296B;
+    --blue: #00509D;
+    --light: #EDEDED;
+    --yellow: #FFDB57;
+    --gold: #FFCB05;
+}
 /*-------------------------------------
  * customize material design icon sizes 
  *-------------------------------------
@@ -8,3 +14,39 @@
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+
+* {
+    font-family: 'Red Hat Mono', monospace;
+    color: var(--dark-blue);
+}
+.lead {
+    color: var(--blue);
+}
+
+body{
+    background-color: var(--light);
+}
+
+.bg-info , footer{
+    background-color: var(--dark-blue) !important;
+}
+.navbar-brand {
+    color: #FFD60A !important;
+}
+
+.btn-primary {
+    background-color: var(--gold);
+    color: var(--dark-blue);
+    
+}
+.btn-outline-secondary {
+    background-color: var(--blue);
+    color: var(--gold);
+    
+}
+button:hover {
+    background-color: gray !important;
+}
+.text-muted {
+    color:  var(--gold) !important;
+}
